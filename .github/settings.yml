@@ -1,0 +1,6 @@
+---
+repository:
+  description: Devcontainer for Java
+  topics: vscode, codespaces, devcontainer, java, jre, jdk, openjre, openjdk, maven, mvn
+  delete_branch_on_merge: true
+  has_wiki: false
