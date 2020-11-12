@@ -1,7 +1,7 @@
 FROM openjdk:11.0.9-slim
 FROM maven:3.6.3-jdk-11-slim
 
-LABEL org.opencontainers.image.source=https://github.com/hspaans/java2-devcontainer
+LABEL org.opencontainers.image.source=https://github.com/hspaans/java-devcontainer
 
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
