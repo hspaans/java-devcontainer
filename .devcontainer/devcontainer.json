@@ -1,0 +1,19 @@
+{
+  "name": "Java",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "appPort": [],
+  "postCreateCommand": "",
+  "remoteUser": "vscode",
+  "extensions": [
+    "github.vscode-pull-request-github",
+    "ms-python.python",
+    "redhat.vscode-yaml",
+    "yzhang.markdown-all-in-one"
+  ]
+}
