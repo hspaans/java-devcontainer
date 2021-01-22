@@ -1,4 +1,4 @@
-FROM openjdk:15.0.1-slim
+FROM openjdk:15.0.2-slim
 FROM maven:3.6.3-openjdk-15-slim
 
 LABEL org.opencontainers.image.source=https://github.com/hspaans/java-devcontainer
