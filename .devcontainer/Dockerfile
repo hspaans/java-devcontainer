@@ -1,6 +1,7 @@
 FROM openjdk:16.0-slim
 FROM maven:3.8.1-openjdk-15-slim
 
+LABEL org.opencontainers.image.description="Java devcontainer for VSCode or Codespaces"
 LABEL org.opencontainers.image.source=https://github.com/hspaans/java-devcontainer
 
 # Avoid warnings by switching to noninteractive
@@ -37,3 +38,6 @@ RUN apt-get update \
 
 # Switch back to dialog for any ad-hoc use of apt-get
 ENV DEBIAN_FRONTEND=dialog
+
+USER vscode
+ENV HOME /home/vscode
