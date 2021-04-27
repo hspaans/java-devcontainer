@@ -3,7 +3,6 @@
 > THIS PROJECT IS ARCHIVED
 >
 > See [microsoft/vscode-dev-containers][repo] as an alternative.
-> 
 
 ## Using within you project
 
