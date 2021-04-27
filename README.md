@@ -1,3 +1,7 @@
+> THIS PROJECT IS ARCHIVED
+>
+> See [microsoft/vscode-dev-containers][repo] as an alternative.
+> 
 # Devcontainer for Java
 
 ## Using within you project
@@ -35,3 +39,4 @@ The container is based on [LTS](https://en.wikipedia.org/wiki/Long-term_support)
 
 [java-devcontainer:latest]: ghcr.io/hspaans/java-devcontainer:latest
 [java-devcontainer:11]: ghcr.io/hspaans/java-devcontainer:11
+[repo]: https://github.com/microsoft/vscode-dev-containers/tree/master/containers/java
