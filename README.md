@@ -1,8 +1,9 @@
+# Devcontainer for Java
+
 > THIS PROJECT IS ARCHIVED
 >
 > See [microsoft/vscode-dev-containers][repo] as an alternative.
 > 
-# Devcontainer for Java
 
 ## Using within you project
 
